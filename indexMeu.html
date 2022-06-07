@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Jogo da Forca Alura - Challenge DOIS</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="styleMeu.css">
+	</head>
+	<body>
+		<header>
+		</header>
+		<main>
+			<div class="inicio" id="inicio">
+				<img src="forca41.png">
+				<div class="inicial" id="inicial">
+					<button class="botaoComecar botao" onclick="comecar()">Começar o Jogo</button>
+					<button class="botaoAdicionar botao" onclick="adicionar()">Adicionar uma Palavra</button>
+				</div>
+				<div class="adicionar" id="adicionar">
+					<input type="text" name="palavra" id="palavra" placeholder="Escreva uma palavra!">
+				
+					<label>Máx de 8 letras</label>
+					<button class="botaoSalvar botao botao1" onclick="salvarComecar()">Salvar e começar</button>
+					<button class="botaoCancelar botao botao1" onclick="cancelar()">Cancelar</button>
+				</div>
+				<div class="jogo" id="jogo">
+					<canvas class="tabuleiro" id="canvas" width="1200px" height="800px"></canvas>
+					<button class="botaoNovoJogo botao botao1" onclick="novoJogo()">Novo Jogo</button>
+					<button class="botaoSair botao botao1" onclick="desistir()">Desistir</button>
+				</div>
+			</div>
+		</main>
+
+		<footer class="rodaPe">
+			<p class="copyright">&copy; Exercício 2 Labora-ONE-Alura - Dorival Leite</p>
+		</footer>
+		<script type="text/javascript" src="jsMeu.js"></script>
+	</body>
+</html>

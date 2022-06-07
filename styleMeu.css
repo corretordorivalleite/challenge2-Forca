@@ -1,0 +1,105 @@
+.inicio{
+	position: relative;
+	margin: 0 auto;
+	width: 1440px;
+	height: 920px;
+	background: #F3F5FC;
+}
+.inicio imagem{
+	position: absolute;
+	margin: 40px 84px;
+	width: 32px;
+	height: 48px;
+}
+.botaoComecar{
+	margin: 410px 560px;
+	background: #0A3871;
+	color: #FFFFFFFF;
+}
+
+.botaoAdicionar{
+	margin: 518px 560px;
+	color: #0A3871;
+}
+.adicionar{
+	display: none;
+}
+.adicionar input{
+	position: absolute;
+	width: 513px;
+	height: 48px;
+	margin: 256px 376px;
+	font-family: 'Inter';
+	font-size: 32px;
+	line-height: 150%;
+	background: none;
+	border: none;
+	resize: none;
+	overflow: hidden;
+	color: #0A3871;
+}
+.adicionar input::placeholder{
+	color: #0A3871;
+}
+.adicionar img{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	margin: 668px 376px;
+}
+.adicionar label{
+	position: absolute;
+	margin: 667px 400px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Inter';
+}
+.botaoSalvar{
+	margin: 701px 376px;
+	background: #0A3871;
+	color: #FFFFFFFF;
+}
+.botaoCancelar{
+	margin: 701px 732px;
+	color: #0A3871;
+}
+.jogo{
+	display: none;
+}
+.tabuleiro{
+	display: block;
+	margin: auto;
+}
+.botaoNovoJogo{
+	margin: 785px 376px;
+	background: #0A3871;
+	color: #FFFFFFFF;
+}
+.botaoSair{
+	margin: 785px 732px;
+	color: #0A3871;
+}
+.botao{
+	position: absolute;
+	width: 317px;
+	height: 40px;
+	border-radius: 24px;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 24px;
+	line-height: 18px;
+	font-family: 'Inter';
+	border-color: #FFFFFFFF;
+	cursor: pointer;
+}
+.botao1{
+	width: 332px;
+	height: 67px;
+}
+.botao:hover{
+	transform: scale(1.1);
+}
+.rodaPe{
+	text-align: center;
+}
